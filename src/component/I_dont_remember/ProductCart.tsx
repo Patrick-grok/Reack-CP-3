@@ -4,6 +4,7 @@ interface ProductCart {
     title: string;
     price: number;
     inStock: boolean;
+    category?: string;
 }
 
 function Product({title, price, inStock }: ProductCart) {
